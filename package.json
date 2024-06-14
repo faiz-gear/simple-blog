@@ -1,5 +1,5 @@
 {
-  "name": "test-glob",
+  "name": "simple-blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "glob": "^10.4.1",
+    "gray-matter": "^4.0.3",
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "rehype-sanitize": "^6.0.0",
+    "rehype-stringify": "^10.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.0",
+    "unified": "^11.0.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "typescript": "^5"
   }
 }
